@@ -1,0 +1,315 @@
+/* bodycss */
+
+@media screen and (max-width:390.91px){
+body{    
+    background: rgb(0, 0, 0);
+}
+
+/* navbarcss */
+
+
+.search:hover{
+    size: 0px;
+    color-scheme: rgb(90, 87, 87);
+}
+.barnav{ 
+    border: 10px solid rgb(122, 120, 120);
+    background-color: rgb(122, 121, 121);
+    color: rgb(0, 0, 0);
+}
+.barnav{
+    padding: 0;
+    margin:0px;
+    padding: 6px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bar01{
+    outline-style: none;
+    list-style-type: none;
+    list-style: none;
+    color: white;
+    font-style: none;
+    margin:0px;
+    font-weight: 800;
+    padding:9px;
+}
+.bar01:hover{
+    color: blue;
+   
+
+}
+.spotify_logo{
+    height: 38px;
+
+}
+.home_logo{
+    height:0%;
+    width: 0%;
+    border:0px solid ;
+}
+.bar02{
+    margin-top:19px ;
+    /* color: rgb(221, 205, 205); */
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: white;
+}
+
+/*  EXTRA */
+
+
+/* .search_bar{
+    color: antiquewhite;
+    border-radius: 21px;
+    border: 9px solid rgb(156, 155, 155);
+    position: absolute;
+    left: 550px;
+    text-align: center;
+} */
+
+/* links  */
+
+
+.linksforhelp{
+    padding:0px;
+    margin:10px;
+    color:  rgb(0, 0, 0);
+}
+.linksforhelp:hover{
+    font-size: 25px;
+    color: rgb(37, 204, 107);
+}
+
+/* fullpagecss */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* logocss */
+
+
+/* .spotify_logo,.home_logo{
+    border: 2px solid black;
+    border-radius: 111px;
+    cursor: pointer;
+} */
+
+/* contentcss */
+
+
+/* .filecontent{ */
+    /* display: flex; */
+/* } */
+
+/* trendingcss */
+
+
+/* .trending{
+    background-color: white;
+} */
+.trending{
+   background-color: rgb(255, 255, 255);
+    border: 7px solid  rgb(221, 205, 205);
+      border-radius: 50px;
+}
+
+/* logincss */
+#desktop{
+    font-size: 0px;
+}
+#Androidsignup{
+    border: 16px solid blue;
+    width: 50px;
+    height:9px;
+    background-color: blue;
+    color: beige;
+    margin:0;
+}
+.login{
+    font-size: 101%;
+}
+/*     
+    /* margin: 0 12px; */
+    /* transition: all .0002s;
+    border-radius: 35px;
+    border: 17px solid white
+}   
+.login:hover{
+    list-style-type: none;
+    */
+    /* border: 17px solid rgb(148, 135, 135);
+    font-size: 100%;
+    color:white;
+    background-color: rgb(148, 135, 135); */
+
+/* } */
+
+.songs{
+    background-color:  rgb(255, 255, 255);
+}
+
+ /* sidebox  */
+
+
+.sidebox{
+    
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 7px;
+    background-color: rgb(230, 227, 227);
+}
+.sidebox2{
+        color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 7px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.create_first_lib{
+    /* box-shadow: 12px; */
+    border-radius: 23px;
+    padding: 22px;
+    margin: 12px;
+    background-color: rgb(122, 122, 122);
+    transition: all 0.1s;
+}
+.create_first_lib:hover{
+    text-shadow: grey 12px;
+    font-size: 111%;
+    text-shadow: ;
+}
+.sideboxbottom{
+    background-color: ;
+    color: rgb(100, 91, 91);
+    padding: 12px 0;
+    margin:29px 0;
+}
+
+
+
+/*-----> #popularalbum{} */
+
+
+/* maincontent */
+
+
+.popular_artist_imgs{
+    transition: all 0.4s;
+    border: 7ps solid rgb(78, 68, 68);
+    border-radius: 140px;
+    padding: 12px;
+    height: 100px;
+    width: 100px;
+}
+.popular_artist_imgs:hover,.Trending_songs_imgs:hover{
+    /* border: 2px solid black; */
+    padding:9px;
+    margin-bottom: 28px;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    height: 117px;
+    width: 117px;
+    /* rotate: none  <90> x; */
+}
+.Trending_songs_imgs{
+    transition: all 0.4s;
+    display: grid;
+    grid-auto-flow: row;
+    cursor: pointer;
+    padding: 12px;
+    height: 100px;
+    width: 100px;
+}
+.welcome{
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 21px;
+}
+
+/* songs */
+
+
+.song{
+    display:grid;
+}
+.songs{
+    background-color:rgb(80, 76, 76) ;
+}
+
+/* playlist/ */
+.playlistcss{
+    color: black;
+    background-color: white;
+    border: 13px solid white;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: all 0.05s;
+} 
+.playlistcss:hover{
+    font-size: 17px;
+}
+
+/* media */
+@media screen (1,1,1);
+     {
+    
+}
+
+/* Singer name */
+.Trending_songs{
+    color: white;
+    font-size:0px ;
+    text-align: center;
+}
+.Trending_songs:hover{
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size:15px;
+}
+.artist{
+    display: flex;
+}
+.albums{
+    display: flex;
+}
+.song01{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+.lastfeed{
+    margin: 34px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+}
+.linksforfeed{
+    color: rgb(104, 102, 102);
+    padding: 12px;
+    margin: 31px;
+}
+.linksforfeed:hover{
+    color: aqua;
+}
+.song01{
+    color: white;
+}
+
+}
+/* 
+@-o-keyframes {
+    font: optional;
+
+}
+@media screen {
+    /* min-width: (0,0,1); */
+/* } */ 
